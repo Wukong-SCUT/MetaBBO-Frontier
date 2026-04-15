@@ -1,0 +1,4 @@
+interface:
+  display_name: "MetaBBO Research Tracker"
+  short_description: "Track latest MetaBBO papers and update repo artifacts"
+  default_prompt: "Use this skill to discover and triage the latest MetaBBO papers."

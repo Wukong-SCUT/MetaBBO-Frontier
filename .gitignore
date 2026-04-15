@@ -1,0 +1,9 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Local editor/runtime state
+.claude/settings.local.json
+.claude/skills/metabbo-research-tracker/references/last_run.json
+.claude/skills/metabbo-research-tracker/references/latest-arxiv.jsonl
+.claude/skills/metabbo-research-tracker/references/latest-arxiv.md

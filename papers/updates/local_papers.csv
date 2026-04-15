@@ -1,0 +1,2 @@
+id,date,title,source,venue,year,url,task,paradigm,problem_type,tags,briefing_date,intro
+upd-2026-04-15-001,2026-04-14,Black-Box Optimization From Small Offline Datasets via Meta Learning with Synthetic Tasks,arxiv,arXiv,2026,https://arxiv.org/abs/2604.12325v1,Other,Other,SOP,"Other,Other",2026-04-15,"We consider the problem of offline black-box optimization, where the goal is to discover optimal designs (e.g., molecules or materials) from past experimental data. A key challenge in this setting is data scarcity: in ma..."

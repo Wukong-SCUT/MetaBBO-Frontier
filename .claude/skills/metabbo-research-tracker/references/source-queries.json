@@ -1,0 +1,38 @@
+{
+  "common": [
+    "meta black box optimization",
+    "meta-black-box-optimization",
+    "learning to optimize",
+    "automated algorithm design",
+    "black-box optimizer",
+    "algorithm configuration evolutionary",
+    "algorithm selection black-box optimization",
+    "learned optimizer evolutionary",
+    "in-context optimization",
+    "LLM optimization evolutionary"
+  ],
+  "arxiv": [
+    "all:\"meta black box optimization\"",
+    "all:\"learning to optimize\" AND all:\"black-box\"",
+    "all:\"algorithm selection\" AND all:\"black-box optimization\"",
+    "all:\"algorithm configuration\" AND all:\"differential evolution\"",
+    "all:\"automated algorithm design\" AND all:\"black-box optimization\""
+  ],
+  "crossref": [
+    "meta black box optimization",
+    "learning to optimize black-box",
+    "evolutionary algorithm configuration reinforcement learning",
+    "large language model optimization algorithm design"
+  ],
+  "openreview": [
+    "black-box optimization",
+    "learning to optimize",
+    "algorithm selection",
+    "evolutionary optimization"
+  ],
+  "google_scholar": [
+    "meta black box optimization",
+    "learning to optimize black-box",
+    "evolutionary algorithm configuration reinforcement learning"
+  ]
+}
