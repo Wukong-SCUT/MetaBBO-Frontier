@@ -7,5 +7,4 @@
 
 ## Notes
 
-- Content is synchronized from `MetaEvo/Awesome-MetaBBO`.
 - Sections are grouped by paradigm and task (`AS/AC/AG/SM`).

@@ -4,14 +4,14 @@ A repository for tracking and organizing Meta-Black-Box-Optimization (MetaBBO) r
 
 ## Paper Library
 
-The paper library is synchronized from Awesome-MetaBBO and rendered in this repository for GitHub visualization:
+The paper library is rendered in this repository for GitHub visualization:
 
 - [papers/README.md](./papers/README.md)
 
 ## Auto Sync
 
-- Local sync script: `papers/scripts/sync_from_awesome_metabbo.py`
-- GitHub Action workflow: `.github/workflows/sync-awesome-metabbo.yml`
+- Local sync script: `papers/scripts/sync_paper_library.py`
+- GitHub Action workflow: `.github/workflows/sync-paper-library.yml`
 
 ## Research Background
 

@@ -1,9 +1,8 @@
 # MetaBBO Paper Library
 
-Structured paper list synchronized from Awesome-MetaBBO and rendered for GitHub browsing.
+Structured paper list for GitHub browsing.
 
-- Sync source: `https://raw.githubusercontent.com/MetaEvo/Awesome-MetaBBO/main/README.md`
-- Last sync: `2026-04-15 08:07 UTC`
+- Last sync: `2026-04-15 08:11 UTC`
 - Total entries: `193`
 
 ## Content
@@ -20,6 +19,6 @@ Structured paper list synchronized from Awesome-MetaBBO and rendered for GitHub 
 
 ## Update Rules
 
-1. Prefer running `papers/scripts/sync_from_awesome_metabbo.py` for bulk updates.
+1. Prefer running `papers/scripts/sync_paper_library.py` for bulk updates.
 2. Keep markdown files and `library.csv` in sync.
-3. Preserve source wording from Awesome-MetaBBO when auto-syncing.
+3. Keep table formats stable for consistent GitHub rendering.

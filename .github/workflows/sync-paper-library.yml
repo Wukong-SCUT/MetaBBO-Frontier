@@ -1,4 +1,4 @@
-name: Sync Awesome-MetaBBO Papers
+name: Sync Paper Library
 
 on:
   workflow_dispatch:
@@ -22,7 +22,7 @@ jobs:
 
       - name: Run sync script
         run: |
-          python papers/scripts/sync_from_awesome_metabbo.py --repo-root .
+          python papers/scripts/sync_paper_library.py --repo-root .
 
       - name: Commit changes if any
         run: |

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Sync paper library from MetaEvo/Awesome-MetaBBO README tables."""
+"""Sync paper library from an upstream markdown source."""
 
 from __future__ import annotations
 
@@ -247,7 +247,6 @@ def render_metabbo(entries: list[dict[str, Any]], out_dir: Path) -> dict[str, in
                 "",
                 "## Notes",
                 "",
-                "- Content is synchronized from `MetaEvo/Awesome-MetaBBO`.",
                 "- Sections are grouped by paradigm and task (`AS/AC/AG/SM`).",
             ]
         )
@@ -358,9 +357,8 @@ def render_papers_readme(repo_root: Path, counts: dict[str, int], total_rows: in
             [
                 "# MetaBBO Paper Library",
                 "",
-                "Structured paper list synchronized from Awesome-MetaBBO and rendered for GitHub browsing.",
+                "Structured paper list for GitHub browsing.",
                 "",
-                f"- Sync source: `{source}`",
                 f"- Last sync: `{now}`",
                 f"- Total entries: `{total_rows}`",
                 "",
@@ -378,9 +376,9 @@ def render_papers_readme(repo_root: Path, counts: dict[str, int], total_rows: in
                 "",
                 "## Update Rules",
                 "",
-                "1. Prefer running `papers/scripts/sync_from_awesome_metabbo.py` for bulk updates.",
+                "1. Prefer running `papers/scripts/sync_paper_library.py` for bulk updates.",
                 "2. Keep markdown files and `library.csv` in sync.",
-                "3. Preserve source wording from Awesome-MetaBBO when auto-syncing.",
+                "3. Keep table formats stable for consistent GitHub rendering.",
             ]
         )
         + "\n",
@@ -399,14 +397,14 @@ def render_root_readme(repo_root: Path) -> None:
                 "",
                 "## Paper Library",
                 "",
-                "The paper library is synchronized from Awesome-MetaBBO and rendered in this repository for GitHub visualization:",
+                "The paper library is rendered in this repository for GitHub visualization:",
                 "",
                 "- [papers/README.md](./papers/README.md)",
                 "",
                 "## Auto Sync",
                 "",
-                "- Local sync script: `papers/scripts/sync_from_awesome_metabbo.py`",
-                "- GitHub Action workflow: `.github/workflows/sync-awesome-metabbo.yml`",
+                "- Local sync script: `papers/scripts/sync_paper_library.py`",
+                "- GitHub Action workflow: `.github/workflows/sync-paper-library.yml`",
                 "",
                 "## Research Background",
                 "",
@@ -419,7 +417,7 @@ def render_root_readme(repo_root: Path) -> None:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Sync paper library from Awesome-MetaBBO markdown tables.")
+    parser = argparse.ArgumentParser(description="Sync paper library from an upstream markdown table source.")
     parser.add_argument("--source", default=SOURCE_URL, help="Source README path or URL.")
     parser.add_argument("--repo-root", default=".", help="Target repository root.")
     args = parser.parse_args()
