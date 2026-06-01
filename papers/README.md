@@ -2,7 +2,7 @@
 
 Structured paper list for GitHub browsing.
 
-- Last sync: `2026-05-25 06:48 UTC`
+- Last sync: `2026-06-01 07:24 UTC`
 - Total entries: `193`
 
 ## Content
